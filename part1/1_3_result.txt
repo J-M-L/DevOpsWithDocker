@@ -1,0 +1,3 @@
+command: basics
+secret message: "This is the secret message"
+found from: https://github.com/docker-hy/docs-exercise/blob/master/index.js line 35

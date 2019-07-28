@@ -1,0 +1,7 @@
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                      PORTS               NAMES
+3755f1d62a11        node                "docker-entrypoint.s…"   58 seconds ago      Exited (0) 55 seconds ago                       determined_gates
+3f4f32516a69        nginx               "nginx -g 'daemon of…"   2 minutes ago       Up 2 minutes                80/tcp              nervous_panini
+d675b242eb37        postgres            "docker-entrypoint.s…"   2 minutes ago       Exited (0) 2 seconds ago                        naughty_elion
+92bf340f5b30        postgres            "docker-entrypoint.s…"   2 minutes ago       Exited (0) 2 minutes ago                        priceless_banach
+ee1796b59240        nginx               "nginx -g 'daemon of…"   6 minutes ago       Exited (0) 6 minutes ago                        nice_aryabhata
+
