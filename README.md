@@ -1,2 +1,2 @@
 # DevOpsWithDocker
-Mooc Course things
+Mooc Course
