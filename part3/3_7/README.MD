@@ -1,4 +1,5 @@
-3.7 B
+#3.7 B
+
 Docker can be used to reduce trouble of setting up/maintaining programs. With container you need to write Dockerfile that is recipe for your container. It contains information of what OS container is using, commands that needs to be run on OS, and other commands. After writing Dockerfile once, you can build an image from it, that image can be used on Mac, PC, Linux to create container that contains your app. This enables you to run your application on many platforms with one simple command “Docker run ……”. Docker containers doesn’t need to be user friendly from within, since required item can be bind outside, that enables that all unnecessary programs can be uninstalled and this makes images smaller than without Docker is hard to achieve. 
 
 
