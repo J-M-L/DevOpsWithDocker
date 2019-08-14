@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+ first:
+  image: devopsdockeruh/first_volume_exercise
+  volumes:
+    - 2_1_mydir:/usr/app
+  container_name: firstcomponse
+
+volumes:
+ 2_1_mydir:

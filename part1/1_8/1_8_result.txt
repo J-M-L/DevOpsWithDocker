@@ -1,0 +1,6 @@
+First I needed to create logs.txt file on my computer then after running command:
+
+docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+
+I got Secret message is:
+"Volume bind mount is easy"

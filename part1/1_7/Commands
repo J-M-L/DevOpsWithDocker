@@ -1,0 +1,25 @@
+docker run -it ubuntu:16.04
+
+mkdir mydir
+cd mydir
+apt-get update
+apt-get install nano
+nano script.sh
+	#!/bin/bash
+	echo "Input website:"; 
+	read website; 
+	echo "Searching.."; 
+	sleep 1; 
+	curl http://$website;
+
+chmod +x script.sh 
+
+exit
+
+docker commit cb8c5b015fd5  ubuntu-with-script
+
+docker build -t curler .
+
+docker run -it curler
+
+
